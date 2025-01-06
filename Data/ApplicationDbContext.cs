@@ -11,5 +11,6 @@ namespace ShortlinkApi.Data
         {
         }
         public DbSet<ShortenedUrl> ShortenedUrls { get; set; }
+        public DbSet<UrlClick> UrlClicks { get; set; }
     }
 }
